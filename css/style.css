@@ -6,6 +6,7 @@
   --DesaturatedDarkBlue: hsl(214, 17%, 51%);
   --GrayishBlue: hsl(212, 23%, 69%);
   --LightGrayishBlue: hsl(210, 46%, 95%);
+  --postBg: white;
 
   /* ## Typography */
   /* ### Body Copy */
@@ -31,7 +32,7 @@ body {
 }
 .post {
   width: clamp(200px, 90vw, 860px);
-  background: white;
+  background: var(--postBg);
   display: flex;
   border-radius: 15px;
   -webkit-border-radius: 15px;
